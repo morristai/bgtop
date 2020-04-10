@@ -1,5 +1,5 @@
-excel
 .idea
-.xlsx
-.ipynb
+*.xlsx
+*.ipynb
+*.csv
 .ipynb_checkpoints

@@ -90,4 +90,4 @@ if __name__ == "__main__":
     origin = S.query()
     df = S.make_data_frame(origin)
     today = time.strftime("%Y-%m-%d")
-    df.to_excel(f'./excel/rarbg-{today}.xlsx', index=False)
+    df.to_csv(f'./data/rarbg-{today}.csv', index=False)

@@ -7,5 +7,5 @@ git clone https://github.com/morristai/rarbg_crawler
 cd rarbg_crawler
 # change your page variable inside S = Rarbg(page=X)
 python rarbg.py
-# Result excel file will appear in excel folder
+# Result csv file will appear in data folder
 ```
